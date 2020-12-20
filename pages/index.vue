@@ -3,8 +3,8 @@
   <div>
     <main class="px-16 py-6 bg-grey-100">
       <div class="flex justify-center md:justify-end">
-        <nuxt-link to="login" class="btn text-primary border-primary md:border-2 hover:bg-primary hover:text-white">Log in</nuxt-link>
-        <nuxt-link to="signup" class="btn text-primary ml-2 border-primary md:border-2 hover:bg-primary hover:text-white">Sign up</nuxt-link>
+        <nuxt-link to="login" class="btn text-primary border-primary md:border-2 hover:bg-primary hover:text-white transition ease-out duration-500">Log in</nuxt-link>
+        <nuxt-link to="signup" class="btn text-primary ml-2 border-primary md:border-2 hover:bg-primary hover:text-white transition ease-out duration-500">Sign up</nuxt-link>
       </div>
 
       <header>
@@ -61,7 +61,7 @@
       </div>
 
       <div class="mt-12 flex justify-center">
-        <div class="btn bg-secondary-100 text-secondary-200 hover:shadow-inner">Load more</div>
+        <div class="btn bg-secondary-100 text-secondary-200 hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50 ease-out duration-300">Load more</div>
       </div>    
     </main>
   </div>
